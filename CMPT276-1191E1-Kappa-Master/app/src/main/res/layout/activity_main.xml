@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.bignerdranch.android.sudoku12.MainActivity"
+    android:background="@drawable/background_color"
+    >
+
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/tablelayout1"
+        android:gravity="top|center">
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6bf"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#6bf"
+            android:textStyle="bold"
+            android:freezesText="true"/>
+
+        <GridView
+            android:id="@+id/gridView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:background="@drawable/gridview_color"
+            android:horizontalSpacing="1sp"
+            android:verticalSpacing="1sp"
+            android:stretchMode="columnWidth"
+            android:padding="5sp"
+            android:gravity="center_vertical">
+
+            <!--android:scrollbars = "horizontal"-->
+
+        </GridView>
+
+        <!--<View-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_weight="0"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--/>-->
+
+    </LinearLayout>
+
+    <TableLayout
+        android:id="@+id/tablelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
+
+
+        <!--Row 1 -->
+        <TableRow>
+            <Button
+                android:id="@+id/insert1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center" />
+
+
+
+            <Button
+                android:id="@+id/insert2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/insert3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <!--Row 2-->
+
+        <TableRow>
+            <Button
+                android:id="@+id/insert6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+        </TableRow>
+
+        <!-- Row 3 -->
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/insert10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+            <Button
+                android:id="@+id/insert12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/button_color_in"
+                android:layout_margin="1sp"
+                android:textColor="#6bf"
+                android:gravity="center"/>
+
+
+            <!--<Button-->
+                <!--android:id="@+id/listening_button"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_weight="1"-->
+                <!--android:gravity="center"-->
+                <!--android:background="@drawable/button_color_in"-->
+                <!--android:layout_margin="1sp"-->
+                <!--android:textColor="#6bf"-->
+                <!--android:text="Listening" />-->
+
+            <Button
+                android:id="@+id/option_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/button_color_game_option"
+                android:layout_margin="1sp"
+                android:textColor="#0070c9"
+                android:layout_gravity="end"
+                android:text="@string/options" />
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</RelativeLayout>
+

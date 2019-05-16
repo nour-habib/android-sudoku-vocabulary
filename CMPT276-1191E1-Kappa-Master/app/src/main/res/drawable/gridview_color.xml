@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@android:color/transparent"
+        android:horizontalSpacing="1sp"
+        android:verticalSpacing="1sp"/>
+    <corners
+        android:radius="5sp" />
+    <stroke
+        android:color="#6bf"
+        android:width="3sp" />
+    <!--<stroke-->
+        <!--android:padding="5dp"-->
+        <!--android:numColumns="9"-->
+        <!--android:color="#f9b727"-->
+        <!--android:horizontalSpacing="1dp"-->
+        <!--android:verticalSpacing="1dp"/>-->
+    <!--<padding android:left="5dp"-->
+        <!--android:top="5dp"-->
+        <!--android:right="5dp"-->
+        <!--android:bottom="5dp" />-->
+    <!--<numColumns android:= "9"/>-->
+
+
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="5sp"
+    android:background="#6bf"
+    android:orientation="vertical"
+    android:spinnerMode="dialog">
+
+
+    <TextView
+        android:id="@+id/current_words_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="5sp"
+        android:textColor="#FFF"
+        android:textSize="30sp"/>
+        <!--android:text="This is a popup window."/>-->
+
+</RelativeLayout>

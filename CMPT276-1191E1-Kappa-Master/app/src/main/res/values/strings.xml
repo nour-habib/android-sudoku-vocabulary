@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Sudoku12</string>
+    <string name="title">                   Sudoku Vocabulary Game</string>
+    <string name="swap_lang_1">The language has swapped from English to Chinese(Mandarin)!</string>
+    string>
+    <string name="swap_lang_2">The language has swapped from Chinese(Mandarin) to English!</string>
+    string>
+    <string name="listening_1">Listening comprehension mode is activated!</string>string>
+    <string name="listening_2">Listening comprehension mode is deactivated!</string>string>
+    <string name="accomplishment_swap_1">Congrats! You\'ve unlock accomplishment "swap elite"</string>
+    <string name="accomplishment_swap_2">Congrats! You\'ve unlock accomplishment "swap master"</string>
+    <string name="accomplishment_swap_3">Congrats! You\'ve unlock accomplishment "swap champion"</string>
+    <string name="accomplishment_speech_1">Congrats! You\'ve unlock accomplishment "Unhappy button!"</string>
+
+    <string-array name="chineseNumbersArray">
+        <item>一</item>
+        <item>二</item>
+        <item>大</item>
+        <item>天</item>
+        <item>戳</item>
+        <item>罐</item>
+        <item>工作</item>
+        <item>混合</item>
+        <item>动物园</item>
+        <item>好</item>
+        <item>安卓</item>
+        <item>计算机</item>
+    </string-array>
+
+    <string-array name="englishNumbersArray">
+        <item>one</item>
+        <item>two</item>
+        <item>big</item>
+        <item>sky</item>
+        <item>jab</item>
+        <item>jar</item>
+        <item>job</item>
+        <item>mix</item>
+        <item>zoo</item>
+        <item>nice</item>
+        <item>Android</item>
+        <item>computer</item>
+
+    </string-array>
+
+    <string name="columnsize">9</string>
+
+    <!--Grid Popup names-->
+    <string name="gridoptions"> Game Options</string>
+    <string name="grid4x4">Grid Size 4x4</string>
+    <string name="grid6x6">Grid Size 6x6</string>
+    <string name="grid8x8">Grid Size 8x8</string>
+    <string name="grid9x9">Grid Size 9x9</string>
+    <string name="grid10x10">Grid Size 10x10</string>
+    <string name="grid12x12">Grid Size 12x12</string>
+    <string name="swap_language">Swap language</string>
+    <string name="current_words">Current words</string>
+    <string name="my_words">My words</string>
+    <string name="new_game">New game</string>
+    <string name="instructions">Instructions</string>
+    <string name="achievements">Achievements</string>
+
+    <string name="instructions1">
+Welcome to the Sudoku Vocabulary Practice Application! Please follow the steps below to ensure proper gameplay:\n \n
+1) To play a quick game, simply press the "New Game" button on the home screen. This will create a 9x9 grid and the grid will be populated with default values\n \n
+2) To load your own word pairs, press the "Upload File" button on the home screen. You will then be taken to another screen where you must accept the permission to allow the udoku Vocabulary Practice Application to access your devices files\n \n
+3) Ensure you format your text file correctly. The format is as follows: The first line in the text fill must be the title of your list such as "My Food Word List". The next lines following the title consist of your word pairs. The word pairs are separated by commas. An example is: wordEnglish,wordChinese. Each word pair must be in its own row in the text file. Ensure there are no empty rows at the end of the text file.\n \n
+4) To change the grid size, select the "Game Options" button on the home page. Your will then be presented with a grid size option popup. Choose your desired grid size. You will then be taken to a grid of that size.\n \n
+Enjoy!</string>
+    <string name="instructions_instruction">Instructions</string>
+    <string name="listening_comprehension">Listening Comprehension</string>
+    <string name="difficulty_easy">Difficulty: Easy</string>
+    <string name="difficulty_medium_">Difficulty: Medium</string>
+    <string name="difficulty_hard">Difficulty: Hard</string>
+    <string name="difficulty_nightmare">Difficulty: Nightmare</string>
+    <string name="start_game">Start Game</string>
+    <string name="confrim_and_modify_file_words">Confrim and Modify File Words</string>
+    <string name="confirm_and_modify_file_words">Confirm and Modify file Words</string>
+    <string name="done">Done</string>
+    <string name="finish">Finish</string>
+    <string name="stats1">My Stats</string>
+    <string name="options">Options</string>
+    <string name="back_to_game">Back to game</string>
+    <string name="you_haven_t_unlocked_any_achievements_yet_play_more_games_to_unlock_them">You haven\'t unlocked any achievements yet. Play more games to unlock them!</string>
+</resources>

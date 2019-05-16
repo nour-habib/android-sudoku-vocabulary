@@ -1,0 +1,14 @@
+Instructions:
+
+
+Welcome to the Sudoku Vocabulary Practice Application! Please follow the steps below to ensure proper gameplay
+
+1) To play a quick game, simply press the "New Game" button on the home screen. This will create a 9x9 grid and the grid will be populated with default values
+
+2) To load your own word pairs, press the "Upload File" button on the home screen. You will then be taken to another screen where you must accept the permission to allow the udoku Vocabulary Practice Application to access your devices files
+
+3) Ensure you format your text file correctly. The format is as follows: The first line in the text fill must be the title of your list such as "My Food Word List". The next lines following the title consist of your word pairs. The word pairs are separated by commas. An example is: wordEnglish,wordChinese. Each word pair must be in its own row in the text file. Ensure there are no empty rows at the end of the text file.
+
+4) To change the grid size, select the "Game Options" button on the home page. Your will then be presented with a grid size option popup. Choose your desired grid size. You will then be taken to a grid of that size.
+
+Enjoy!

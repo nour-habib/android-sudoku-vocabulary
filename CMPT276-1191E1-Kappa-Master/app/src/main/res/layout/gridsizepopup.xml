@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="@drawable/background_color"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id = "@+id/gridSizes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="1">-->
+
+
+            <RadioButton
+                android:id="@+id/grid4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grid4x4"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+            <!--<Space android:layout_height="10sp" />-->
+
+
+            <RadioButton
+                android:id="@+id/grid6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/grid6x6"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+            <!--</LinearLayout>-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:layout_weight="1"-->
+                <!--android:paddingTop="10sp">-->
+
+                <RadioButton
+                    android:id="@+id/grid9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grid9x9"
+                    android:layout_weight="1"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/button_color_game_option"
+                    android:gravity="center"/>
+
+
+
+                <RadioButton
+                    android:id="@+id/grid12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/grid12x12"
+                    android:layout_weight="1"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@drawable/button_color_game_option"
+                    android:gravity="center"/>
+
+
+            <!--</LinearLayout>-->
+
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id = "@+id/difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20sp">
+
+
+
+            <RadioButton
+                android:id="@+id/difficult1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/difficulty_easy"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/difficult2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/difficulty_medium_"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="10sp">-->
+
+            <RadioButton
+                android:id="@+id/difficult3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/difficulty_hard"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+            <RadioButton
+                android:id="@+id/difficult4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/difficulty_nightmare"
+                android:layout_weight="1"
+                android:padding="5sp"
+                android:layout_margin="5sp"
+                android:background="@drawable/button_color_game_option"
+                android:gravity="center"/>
+
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:paddingTop="10sp">-->
+
+            <Button
+                android:layout_marginTop="10sp"
+                android:id="@+id/startGameButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/button_color_game_option"
+                android:text="@string/start_game"
+                />
+
+        <!--</LinearLayout>-->
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<RelativeLayout-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:padding="10sp"-->
+    <!--android:background="@drawable/background_color">-->
+
+    <!--<TableLayout-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:gravity="center">-->
+
+    <!--<TableRow>-->
+    <!--<Button-->
+    <!--android:id="@+id/grid4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/grid4x4"-->
+    <!--android:layout_weight="1"-->
+    <!--android:padding="5sp"-->
+    <!--android:background="@drawable/button_color"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--<Space android:layout_height="10sp" />-->
+
+    <!--<TableRow>-->
+    <!--<Button-->
+    <!--android:id="@+id/grid6"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/grid6x6"-->
+    <!--android:layout_weight="1"-->
+    <!--android:padding="5sp"-->
+    <!--android:background="@drawable/button_color"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--<Space android:layout_height="10sp" />-->
+
+    <!--&lt;!&ndash;<TableRow>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/grid8"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="@string/grid8x8"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="5sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/button_color"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</TableRow>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Space android:layout_height="10sp" />&ndash;&gt;-->
+
+    <!--<TableRow>-->
+    <!--<Button-->
+    <!--android:id="@+id/grid9"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/grid9x9"-->
+    <!--android:layout_weight="1"-->
+    <!--android:padding="5sp"-->
+    <!--android:background="@drawable/button_color"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--<Space android:layout_height="10sp" />-->
+
+    <!--&lt;!&ndash;<TableRow>&ndash;&gt;-->
+    <!--&lt;!&ndash;<Button&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/grid10"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:text="@string/grid10x10"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_weight="1"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:padding="5sp"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:background="@drawable/button_color"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:gravity="center"/>&ndash;&gt;-->
+    <!--&lt;!&ndash;</TableRow>&ndash;&gt;-->
+
+    <!--&lt;!&ndash;<Space android:layout_height="10sp" />&ndash;&gt;-->
+
+    <!--<TableRow>-->
+    <!--<Button-->
+    <!--android:id="@+id/grid12"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/grid12x12"-->
+    <!--android:layout_weight="1"-->
+    <!--android:padding="5sp"-->
+    <!--android:background="@drawable/button_color"-->
+    <!--android:gravity="center"/>-->
+    <!--</TableRow>-->
+
+    <!--</TableLayout>-->
+
+    <!--</RelativeLayout>-->

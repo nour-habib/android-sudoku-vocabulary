@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:background="@drawable/achievement_color">
+
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TableRow>
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#FFF"
+                android:text="@string/you_haven_t_unlocked_any_achievements_yet_play_more_games_to_unlock_them"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+        <LinearLayout
+            android:id = "@+id/achievementLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="20sp"
+            android:orientation="vertical">
+
+        </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_marginTop="20sp"
+                android:id="@+id/backbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="@drawable/button_color"
+                android:textColor="#6bf"
+                android:text="@string/back_to_game"
+                />
+        </TableRow>
+
+    </TableLayout>
+
+
+</ScrollView>
